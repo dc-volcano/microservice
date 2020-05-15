@@ -1,0 +1,3 @@
+spring: 
+  application:
+    name: microservice-eureka-server-config-2002

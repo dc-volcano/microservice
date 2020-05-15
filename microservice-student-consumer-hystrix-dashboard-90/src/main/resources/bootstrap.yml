@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: microservice-hystrix-dashboard
+  cloud:
+    config:
+      name: hystrix_dashboard_config
+      uri: http://configserver.volcano.com:4001  # 配置configserver地址
+      profile: dev  # 级别
+      label: master  # 分支 git中 默认master

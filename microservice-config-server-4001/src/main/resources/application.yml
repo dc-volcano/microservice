@@ -1,0 +1,11 @@
+server:
+  port: 4001
+  
+spring:
+  application:
+    name:  microservice-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/dc-volcano/microservice-config

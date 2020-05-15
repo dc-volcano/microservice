@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: microservice-hystrix-turbine
+  cloud:
+    config:
+      name: hystrix_turbine_config
+      uri: http://configserver.volcano.com:4001  # 配置configserver地址
+      profile: dev  # 级别
+      label: master  # 分支 git中 默认master
